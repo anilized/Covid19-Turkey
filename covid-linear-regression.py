@@ -129,7 +129,7 @@ print(msqe, rmse)
 
 """
 
-"""
+
 x = df['Confirmed'].values 
 y = df['Deaths'].values 
 
@@ -210,7 +210,7 @@ rmse = np.sqrt(msqe)
 print(msqe, rmse)
 """
 """
-
+"""
 """
 sel_cols = ['Deaths', 'Month', 'Day', 'Recovered', 'Confirmed', 'Test_Num', 'Intubated_Count', 'Intensive_Care']
 df_multi = df[sel_cols]
